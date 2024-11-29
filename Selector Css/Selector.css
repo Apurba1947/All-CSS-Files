@@ -1,0 +1,5 @@
+/* div--> parent */
+/* p-->child */
+div > p{background-color: rgb(74, 205, 74);
+font-size: 22px;}
+div>span  {background-color: blue;}

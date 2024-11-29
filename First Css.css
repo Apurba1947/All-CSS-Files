@@ -1,0 +1,7 @@
+/* element selector */
+span{background-color: aqua;}
+/* Thi is clss selector */
+.bg-red{
+    background-color: red;}
+    /* This is id selector */
+    #bg-green{background-color: green;}
