@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        .red{background-color: red;}
+        /* Universal selector */
+        *{margin: 0;
+        padding: 0;}
+       
+        /* pseudo selecotor */
+        .box:hover{ text-decoration:underline ;}
+       a:hover{color: aqua;}
+       /* if link is visited */
+       a:visited{color: red;}
+       /* if link is not visited */
+a:link{color: green;}
+article:hover{color:blueviolet;}
+
+/* When the element is pressed */
+button{background-color: blueviolet;}
+button:active{background-color: yellow;}
+
+/* on selecting any text in the website */
+span::selection{background-color: yellow;
+color: brown;}
+
+/* first child of the parent */
+p:first-child{background-color: aqua;}
+
+/*nth child of the parent*/
+P:nth-child(3){background-color: green;}
+    </style>
+</head>
+<body>
+    <div class="red">This is div tag</div>
+    <span>This is span tags</span>
+<article>This is article</article>    
+<div class="box">this is box</div>
+<a href="https://youtube.com/shorts/7PvpTTru74k?si=uYFFr5Y3lSCt6OEi">youtube's website</a><br>
+<button>submit </button>
+<footer>  
+<p>This is para 1&colon; First child</p>
+<p>This is para 2&colon; Second child</p>
+<p>This is para 2&colon; Third child</p>
+</footer>  
+   
+</div>
+</body>
+</html>
